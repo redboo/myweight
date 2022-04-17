@@ -1,0 +1,19 @@
+{
+  // "editor.glyphMargin": false,
+  // "editor.lineNumbers": "off",
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#ff00b3",
+    "titleBar.activeForeground": "#ffffff"
+  },
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false,
+    "togglequotes.chars": ["\"", "'", "`"],
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "editor.lineNumbers": "off"
+  }
+}
