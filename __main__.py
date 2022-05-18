@@ -18,7 +18,7 @@ def main(args):
     load_dotenv()
 
     sheet_name = os.getenv("SHEET", "myweight")
-    dir = os.path.dirname(args[0])
+    dir = os.path.dirname(os.path.realpath(__file__))
     weight = input("Ваш вес: ").strip().replace(".", ",")
     service_account = gspread.service_account(
         filename=f"{dir}/service_account.json"
